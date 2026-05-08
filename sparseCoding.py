@@ -83,4 +83,6 @@ for i in range(n_components):
 
 plt.suptitle("Learned Sparse Coding Filters", fontsize=14)
 plt.tight_layout()
+
+plt.savefig("outputs/sparseCoding.py.png", dpi=300, bbox_inches="tight")
 plt.show()

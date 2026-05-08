@@ -46,6 +46,8 @@ for i in range(16):
     plt.axis("off")
 
 plt.tight_layout()
+
+plt.savefig("outputs/Dataset.py.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Patch'leri vektöre çevir (8x8 -> 64)

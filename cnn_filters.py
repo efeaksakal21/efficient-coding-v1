@@ -107,4 +107,7 @@ for i in range(64):
 plt.suptitle("CNN Learned Filters")
 
 plt.tight_layout()
+
+plt.savefig("outputs/cnn_filters.py.png", dpi=300, bbox_inches="tight")
+
 plt.show()

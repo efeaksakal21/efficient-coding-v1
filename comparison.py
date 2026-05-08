@@ -47,6 +47,8 @@ for i in range(n_show):
 
 plt.suptitle("Top: Sparse Coding Filters | Bottom: CNN Filters", fontsize=14)
 plt.tight_layout()
+
+plt.savefig("outputs/comparison.py.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 print("comparison.py finished")
